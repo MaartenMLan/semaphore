@@ -1,2 +1,6 @@
-echo "hello world"
-printf "hello"
+---
+- name: install Nginx
+  apt:
+    name: nginx
+    state: present
+    update_cache: yes
