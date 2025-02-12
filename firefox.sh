@@ -1,2 +1,2 @@
 #!/bin/bash
-exec /usr/local/firefox_dev/firefox
+exec /usr/bin/firefox
