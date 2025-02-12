@@ -1,5 +1,5 @@
 - name: Host Basic Apache Website
-  hosts: ubuntu
+  hosts: 10.189.8.23
   become: true
   tasks:
     - name: Install Apache
